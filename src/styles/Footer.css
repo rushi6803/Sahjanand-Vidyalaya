@@ -1,0 +1,123 @@
+.footer {
+  background: linear-gradient(135deg, #002b7a, #004aad);
+  color: #fff;
+  padding: 20px 20px 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section h2,
+.footer-section h3 {
+  color: #fff;
+  margin-bottom: 15px;
+  font-weight: 600;
+  position: relative;
+}
+
+.footer-section h3::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background-color: #ffcc00;
+  border-radius: 2px;
+}
+
+.footer-section.about p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #e5e5e5;
+}
+
+.footer-logo {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+.footer-section.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section.links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section.links ul li a {
+  text-decoration: none;
+  color: #e6ecff;
+  transition: color 0.3s ease;
+}
+
+.footer-section.links ul li a:hover {
+  color: #ffcc00;
+}
+
+.footer-section.contact p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-section.contact a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section.contact a:hover {
+  color: #ffcc00;
+}
+
+/* === Social Icons === */
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin-right: 12px;
+  font-size: 1.3rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffcc00;
+  transform: scale(1.2);
+}
+
+/* === Bottom Bar === */
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 0.9rem;
+  color: #dbe5ff;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .footer-container {
+    text-align: center;
+  }
+
+  .footer-section.contact p {
+    justify-content: center;
+  }
+
+  .social-icons a {
+    margin: 0 8px;
+  }
+}

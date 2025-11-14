@@ -1,0 +1,6 @@
+.academics-page{padding:2rem 1rem}
+.timings ul{list-style:disc;margin-left:1.2rem}
+.standards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1rem;margin-top:1.2rem}
+.standard{background:#fff;border-radius:10px;overflow:hidden;display:flex;gap:1rem;align-items:center;padding:0.6rem;box-shadow:0 6px 20px rgba(15,15,15,0.05)}
+.standard img{width:120px;height:100px;object-fit:cover;border-radius:6px}
+.standard h4{margin-bottom:0.4rem}

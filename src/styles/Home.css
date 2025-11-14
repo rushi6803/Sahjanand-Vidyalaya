@@ -1,0 +1,139 @@
+/* ========= GLOBAL ========= */
+.home-page {
+  font-family: "Poppins", sans-serif;
+  color: #222;
+  overflow-x: hidden;
+}
+
+/* ========= HERO SECTION ========= */
+.hero {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 800px;
+  color: #fff;
+  padding: 0 1.5rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.slogan {
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #f6d365;
+  margin-bottom: 1rem;
+}
+
+.learn-more-btn {
+  background: #e63946;
+  color: white;
+  padding: 0.8rem 1.6rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background: #d62828;
+}
+
+/* ========= ABOUT SECTION ========= */
+.home-about {
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.home-about h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #e63946;
+}
+
+.home-about p {
+  max-width: 850px;
+  margin: 0 auto 1.2rem;
+  line-height: 1.8;
+  color: #333;
+  font-size: 1.1rem;
+}
+
+.about-highlights {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.highlight-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 1.8rem 1.4rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+}
+
+.highlight-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+.highlight-card h4 {
+  color: #1d3557;
+  margin-bottom: 0.5rem;
+}
+
+/* ========= TESTIMONIALS SECTION ========= */
+.home-testimonials {
+  background: #f7f9fc;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.home-testimonials h2 {
+  color: #1d3557;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+/* ========= RESPONSIVE ========= */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.4rem;
+  }
+
+  .slogan {
+    font-size: 1.2rem;
+  }
+
+  .learn-more-btn {
+    padding: 0.6rem 1.2rem;
+  }
+
+  .home-about {
+    padding: 3rem 1.5rem;
+  }
+}
