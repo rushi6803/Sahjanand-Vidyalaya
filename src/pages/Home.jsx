@@ -4,7 +4,7 @@ import "../styles/Home.css";
 import heroImg from "../assets/bg.jpg";
 import Testimonials from "../widgets/Testimonials";
 import WhatWeOffer from "../widgets/WhatWeOffer";
-import StatsBar from "../widgets/Statsbar";
+import StatsBar from "../widgets/StatsBar";
 
 
 const Home = () => {
