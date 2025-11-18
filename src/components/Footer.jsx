@@ -37,7 +37,7 @@ const Footer = () => {
         {/* === Right: Contact Info === */}
         <div className="footer-section contact">
           <h3>Contact Info</h3>
-          <p><FaPhoneAlt /> <a href="tel+919979972123"> +૯૧-૯૯૭૯૯૭૨૧૨૩ / +૯૧-૯૯૦૯૪૯૪૮૯૮ </a></p>
+          <p><FaPhoneAlt /> <a href="tel:+919979972123"> +૯૧-૯૯૭૯૯૭૨૧૨૩ / +૯૧-૯૯૦૯૪૯૪૮૯૮ </a></p>
           <p><FaEnvelope /> <a href="mailto:shajanand1999@gmail.com">shajanand1999@gmail.com</a></p>
           <p><FaMapMarkerAlt/>ત્રિદેવ પાર્ક, વસ્ત્રાલ રોડ, અમદાવાદ, ગુજરાત 382418</p>
           <div className="social-icons">
