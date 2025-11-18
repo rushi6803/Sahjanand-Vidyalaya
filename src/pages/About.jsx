@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "../styles/About.css";
-import img1 from "../assets/who.png";
+import img1 from "../assets/who1.png";
 import img2 from "../assets/philo.png";
-import img3 from "../assets/event.png";
+import img3 from "../assets/event1.png";
 
 const About = () => {
   return (
