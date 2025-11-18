@@ -3,7 +3,7 @@ import "../styles/Header.css";
 import { motion } from "framer-motion";
 import { FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo from "/logo.png";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
