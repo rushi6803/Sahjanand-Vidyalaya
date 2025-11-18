@@ -25,14 +25,7 @@ const Home = () => {
         >
           <h1 className="hero-title">“શિક્ષણ, સંસ્કાર અને સફળતાનું ઘર — સહજાનંદ વિદ્યાલય”</h1>
           <p className="slogan">"મૂલ્યો સાથે શીખવું, શ્રેષ્ઠતા સાથે નેતૃત્વ કરવું"</p>
-          <motion.a
-            href="/about"
-            className="learn-more-btn"
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            વધુ જાણો
-          </motion.a>
+        
         </motion.div>
       </section>
 
