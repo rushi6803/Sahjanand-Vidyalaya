@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "../styles/About.css";
 import img1 from "../assets/who1.JPG";
 import img2 from "../assets/philo.png";
-import img3 from "../assets/event1.png";
+import img3 from "../assets/event1.PNG";
 
 const About = () => {
   return (
